@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apple</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="logo" href="#">
+                <img src="imges/logo.png" alt="Logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </header>
+        <section class="content">
+            <div class="text">
+                <h2>IPHONE 13 PRO MAX</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus reprehenderit ipsum magnam! Voluptate.</p>
+            <button>BUY</button>
+            </div>
+            <img class="mainPhone" src="imges/0.png" alt="Iphone">
+        </section>
+        <section class="images">
+            <img onclick="changePhone(this.src); changeBackground('#000')" src="imges/0.png" alt="">
+            <img onclick="changePhone(this.src); changeBackground('#247ec8')" src="imges/1.png" alt="">
+            <img onclick="changePhone(this.src); changeBackground('#1e1e1e')" src="imges/2.png" alt="">
+            <img onclick="changePhone(this.src); changeBackground('#c79b53')" src="imges/3.png" alt="">
+            <img onclick="changePhone(this.src); changeBackground('#c82525')" src="imges/4.png" alt="">
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
